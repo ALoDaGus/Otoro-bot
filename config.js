@@ -1,8 +1,8 @@
 module.exports = {
     app: {
-        px: 'XXX',
-        token: 'XXX',
-        playing: 'by Zerio ❤️'
+        px: 'gus',
+        token: 'OTc1OTYwNzQzMDI5NjYxNzM2.G9OhM_.TdnBp2ww7RU9BBTWaYl5XBfWgn9As-65aUroOk',
+        playing: 'บทเพลงของกัสจัง'
     },
 
     opt: {
