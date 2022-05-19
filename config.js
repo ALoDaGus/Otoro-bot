@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         px: 'gus',
-        token: 'OTc1OTYwNzQzMDI5NjYxNzM2.G9OhM_.TdnBp2ww7RU9BBTWaYl5XBfWgn9As-65aUroOk',
+        token: 'OTc2ODIyNTIzMjA1NDE5MDY5.GO0F_y.Qup5NNgPVeRMQAYUKpxGVMUJyqP6PrFTtKX-no',
         playing: 'บทเพลงของกัสจัง'
     },
 
@@ -9,7 +9,7 @@ module.exports = {
         DJ: {
             enabled: false,
             roleName: 'DJ',
-            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'seek', 'shuffle', 'skip', 'stop', 'volume']
+            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'seek', 'shuffle', 'skip', 'stop', 'volume', 'sleep']
         },
         maxVol: 100,
         loopMessage: false,
