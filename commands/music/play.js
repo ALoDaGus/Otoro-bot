@@ -17,7 +17,11 @@ module.exports = {
         if (!res || !res.tracks.length) return message.channel.send(`No results found ${message.author}... try again ? ❌`);
 
         const queue = await player.createQueue(message.guild, {
-            metadata: message.channel
+            metadata: message.channel,
+            leaveOnEnd: false,
+            leaveOnStop: false,
+            leaveOnEmpty: false,
+            autoSelfDeaf: false,
         });
 
         try {

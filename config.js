@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         px: 'gus',
-        token: 'OTc2ODIyNTIzMjA1NDE5MDY5.GO0F_y.Qup5NNgPVeRMQAYUKpxGVMUJyqP6PrFTtKX-no',
+        token: 'OTQ1NzE0OTU5NTI5MTc3MDg4.GgGbLw.p17IgF_Z9189ZRXvxWNcW_stptBqWrkpcVDTpI',
         playing: 'บทเพลงของกัสจัง'
     },
 
