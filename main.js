@@ -1,5 +1,5 @@
-const { Player } = require('discord-player');
-const { Client, Intents } = require('discord.js');
+const { Player, QueryType, QueueRepeatMode } = require('discord-player');
+const { Client,GuildMember, Intents } = require('discord.js');
 
 global.client = new Client({
     intents: [
@@ -14,6 +14,9 @@ global.client = new Client({
 client.config = require('./config');
 
 global.player = new Player(client, client.config.opt.discordPlayer);
+global.GuildMember = GuildMember;
+global.QueryType = QueryType;
+global.QueueRepeatMode = QueueRepeatMode;
 
 require('./src/loader');
 require('./src/events');
