@@ -20,5 +20,7 @@ global.QueueRepeatMode = QueueRepeatMode;
 
 require('./src/loader');
 require('./src/events');
+require('./src/command');
+require('./src/deployler')
 
 client.login(client.config.app.token);
