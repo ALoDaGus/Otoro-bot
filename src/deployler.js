@@ -2,8 +2,9 @@ client.on('messageCreate', async (message) => {
 	if (message.author.bot || !message.guild) return;
 	if (!client.application?.owner) await client.application?.fetch();
 	if (
-		message.content === '!deploy' &&
-		message.author.id === client.application?.owner?.id
+		message.content === '!deploy' 
+		// &&
+		// message.author.id === client.application?.owner?.id
 	) {
 		await message.guild.commands.set([
 			{
